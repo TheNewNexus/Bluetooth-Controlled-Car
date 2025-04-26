@@ -1,0 +1,26 @@
+Dependencies for Project 'BlueTooth', Target 'BlueTooth': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\startup.s)(0x66FB1BBB)(--target=armv7em-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_BlueTooth-IC:/Users/Robby/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Robby/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 540" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./startup.o)
+F (.\LED.c)(0x670060C9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_BlueTooth-IC:/Users/Robby/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Robby/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./led.o -MMD)
+I (tm4c123gh6pm.h)(0x66FB1BBB)
+I (LED.h)(0x67005323)
+F (.\LED.h)(0x67005323)()
+F (.\BLT.c)(0x6703717B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_BlueTooth-IC:/Users/Robby/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Robby/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./blt.o -MMD)
+I (tm4c123gh6pm.h)(0x66FB1BBB)
+I (BLT.h)(0x6703717A)
+F (.\BLT.h)(0x6703717A)()
+F (.\BltControlledCar.c)(0x67037179)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_BlueTooth-IC:/Users/Robby/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Robby/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./bltcontrolledcar.o -MMD)
+I (tm4c123gh6pm.h)(0x66FB1BBB)
+I (PWM.h)(0x6701D796)
+I (LED.h)(0x67005323)
+I (BLT.h)(0x6703717A)
+I (Movement.h)(0x67020339)
+F (.\PWM.c)(0x670248EA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_BlueTooth-IC:/Users/Robby/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Robby/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./pwm.o -MMD)
+I (tm4c123gh6pm.h)(0x66FB1BBB)
+I (PWM.h)(0x6701D796)
+F (.\PWM.h)(0x6701D796)()
+F (.\Movement.c)(0x67037FB2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_BlueTooth-IC:/Users/Robby/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Robby/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./movement.o -MMD)
+I (Movement.h)(0x67020339)
+I (tm4c123gh6pm.h)(0x66FB1BBB)
+I (PWM.h)(0x6701D796)
+F (.\Movement.h)(0x67020339)()
