@@ -1,5 +1,3 @@
-Here's an updated README for the GitHub repository:
-
 # Bluetooth-Controlled Car Project
 
 A wireless robotic vehicle controlled via Bluetooth using HC-05 module and TM4C123GXL microcontroller. Supports multiple operation modes including free navigation and predefined geometric patterns.
