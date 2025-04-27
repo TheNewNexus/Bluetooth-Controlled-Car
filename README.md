@@ -7,7 +7,7 @@ A wireless robotic vehicle controlled via Bluetooth using HC-05 module and TM4C1
   - **Free Ride Mode**: Manual control via smartphone (2m range)
   - **Custom Shapes Mode**: Autonomous execution of geometric patterns
 - **Bluetooth Configuration**: AT command setup for HC-05 module
-- **Motor Control**: PWM-driven L298N motor driver for precise movement
+- **Motor Control**: PWM-driven DRV8838 motor driver for precise movement
 - **Expandable Architecture**: Optional IR/ultrasonic sensors for obstacle avoidance
 
 ## Hardware Components
@@ -15,9 +15,9 @@ A wireless robotic vehicle controlled via Bluetooth using HC-05 module and TM4C1
 |------------------------|-----------------------|
 | Microcontroller        | TM4C123GXL            |
 | Bluetooth Module       | HC-05                 |
-| Motor Driver           | L298N                 |
+| Motor Driver           | DRV8838                |
 | DC Motors              | 4x (Differential Drive)|
-| Power Source           | 7.4V LiPo Battery     |
+| Power Source           | 6x AA batteries     |
 
 ## Bluetooth Setup
 ```c
@@ -65,15 +65,6 @@ main.c
 3. Pair with Android device using PIN 1234
 4. Use terminal app or custom Android controller
 
-## Advanced Features
-- **Obstacle Avoidance** (Optional):
-  ```c
-  void checkObstacles() {
-      if(ultrasonicDistance() < 15) {
-          emergencyStop();
-      }
-  }
-  ```
 - **Battery Monitoring**: Integrated voltage sensing
 - **LED Status Indicators**: System state visualization
 
